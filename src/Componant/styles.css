@@ -1,0 +1,19 @@
+.swiper {
+     height: 60vh;
+     width: 60%;
+     display: flex;
+  justify-content: center !important;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  margin: auto !important;
+  border-radius: 1rem !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+ }
+ .slide{
+     display: flex !important;
+     flex-direction: column !important;
+     gap: 30px;
+     align-items: center !important;
+     justify-content: center;
+ }

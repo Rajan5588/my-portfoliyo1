@@ -1,0 +1,82 @@
+.contact-form {
+     display: flex;
+     height: 80vh;
+     margin-top: 4rem;
+     padding: 3rem 3rem 0;
+     flex-wrap: wrap;
+ }
+ .awesome {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+ }
+ .c-right {
+     display: flex;
+     flex: 1 1;
+     justify-content: center;
+     position: relative;
+ }
+ .c-right>form {
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+ }
+
+ .c-right .user {
+     border: 2px solid orange;
+     border-radius: 8px;
+     font-size: 16px;
+     height: 2rem;
+     outline: none;
+     padding: .3em;
+     width: 20rem;
+ }
+ button, input, optgroup, select, textarea {
+     font-family: inherit;
+     font-size: inherit;
+     line-height: inherit;
+     margin: 0;
+ }
+
+ [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+     cursor: pointer;
+ }
+ 
+ [type=button], [type=reset], [type=submit], button {
+     -webkit-appearance: button;
+ }
+ .button {
+     background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+     border: none;
+     border-radius: 34px;
+     box-shadow: 0 20px 24px 3px rgba(251, 161, 40, .42);
+     color: #fff;
+     font-size: 16px;
+     padding: 11px 26px;
+ }
+ button, input, optgroup, select, textarea {
+     font-family: inherit;
+     font-size: inherit;
+     line-height: inherit;
+     margin: 0;
+ }
+ 
+.c-blur1 {
+    left: 8rem;
+    top: 1rem;
+}
+.blur {
+    background: #c6bfca;
+    border-radius: 50%;
+    -webkit-filter: blur(212px);
+    filter: blur(21px);
+    -webkit-filter: blur(722px);
+    filter: blur(72px);
+    height: 14rem;
+    left: 56%;
+    position: absolute;
+    top: -18%;
+    width: 5rem;
+    z-index: -10;
+}

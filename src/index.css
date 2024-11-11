@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+     padding: 0;
+     margin: 0;
+     width: 100vw;
+     height: 100vh;
+     box-sizing: border-box;
+     overflow-x: hidden;
+}
+.darkMode{
+     background-color: black;
+     color: white;
+     transition: all 0.2s linear;
+}
+button {
+     background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+     border: none;
+     border-radius: 34px;
+     color: #fff;
+     font-size: 16px;
+     padding: 11px 26px;
+ }
+
+ button:hover{
+     box-shadow: 0 20px 24px 3px rgba(251, 161, 40, .42);
+     font-size: 17px;
+     color: #afee1c;
+     background: linear-gradient(180deg, hsl(0, 20%, 95%) 26.71%, rgb(238, 252, 250) 99.36%);
+ }
+
+ .Namesection{
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+ }
+ img:hover{
+     box-shadow: rgba(247, 7, 7, 0.486) 0px 10px 36px 0px, rgba(149, 212, 3, 0.479) 0px 0px 0px 3px;
+ }
+
+.Award{
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card1{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.btnm{
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width: 680px) {
+    #Home{
+        flex-direction: column;
+        gap: 7rem;
+        height: 64rem;
+    }
+    .right{
+        display: none;
+        visibility: hidden;
+    }
+    .btnm{
+        display: block;
+        visibility: visible;
+        margin-right: 0rem;
+    }
+    .Namesection{
+        width: 100%;
+    }
+ 
+}
+
+@media screen and (max-width: 480px) {
+    #serviceRight, #Services {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    #Services{
+       height: 66rem;
+        margin-top: 0;
+        padding: 0;
+    
+    }
+    #Work{
+        margin-bottom: 11rem;
+       
+        overflow: hidden;
+     justify-content: center;
+     gap: 0;
+    
+       }
+
+   
+   
+  
+}
+
+@media screen and (max-width: 480px){
+    #cards{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+       max-height: fit-content;
+         
+        }
+        .card{
+            flex-shrink: 0
+            
+        }
+
+        .goall{
+            margin-top: 80rem;
+        }
+        .edu{
+            margin-top: 15rem;
+        }
+        .conttt{
+            margin-bottom: 10rem;
+        }
+        .f{
+            margin-bottom: 4rem;
+        }
+        .footer img{
+            width: 100%;
+            
+        }
+        .f-icons{
+            margin-bottom: 0px;
+        }
+
+        body{
+            overflow-x: hidden;
+        }
+.no{
+visibility: hidden;
+}
+
+      
+}

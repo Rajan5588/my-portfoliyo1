@@ -1,0 +1,31 @@
+.f-content, .footer {
+   
+     display: flex;
+     align-items: center;
+ }
+ 
+ .footer {
+     margin: -7rem -3.5rem -.5rem;
+     position: relative;
+ }
+
+
+.f-content {
+     width: 100%;
+     color: #196e96;
+     flex-direction: column;
+     gap: 2rem;
+     justify-content: center;
+     margin-top: 2rem;
+     position: absolute;
+     bottom: 0;
+     font-size: 40px;
+   
+ }
+ .f-icons {
+     margin-bottom: 1.5rem;
+     display: flex;
+     gap: 2rem;
+     font-size: 40px;
+   
+ }
