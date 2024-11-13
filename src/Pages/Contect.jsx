@@ -3,8 +3,7 @@ import './Contect.css';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 const Contect = () => {
-  const form=useRef()
-     console.log(form.current);
+  const form=useRef();
    let [input, setInput]=useState({
      name:'',
      email:"",

@@ -5,6 +5,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
+
 const Home = () => {
   const typedref=useRef(null);
   useEffect(() => {
@@ -41,7 +42,7 @@ const Home = () => {
       </div>
       <div data-aos="fade-down-left" className="imgsection w-1/2 overflow-hidden rounded-xl flex flex-col gap-5   items-center ">
       <div className="img  h-[300px] w-[300px] rounded-full  ">
-          <img  className=" rounded-full h-[100%] w-[100%] " src="https://media.istockphoto.com/id/960231516/photo/young-indian-male-model.jpg?s=1024x1024&w=is&k=20&c=7w6xOC7ZgK6eJCFub45NZjlCW6E10a7SHMAYDeAGMyw=" alt="" />
+          <img  className=" rounded-full h-[100%] w-[100%] " src="./image/t.jpg" alt="" />
       </div>
       <div data-aos="fade-left"
      data-aos-anchor="#example-anchor"
